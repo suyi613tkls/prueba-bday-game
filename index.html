@@ -8,12 +8,23 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to your birthday game!</h1>
+        <h1 class="title">Welcome to your birthday game!</h1>
         <p>Type the first code to continue:</p>
         <input type="text" id="codeInput" placeholder="Your code...">
         <button id="submitBtn">Check</button>
         <p id="message"></p>
+        <div class="progress">
+        <div class="progress-fill" id="progressFill"></div>
     </div>
+        
+    <div class="lives">
+        ❤️❤️❤️
+    </div>
+    <div id="particles"></div>
+        <audio id="successSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_7f1d2b2f1a.mp3?filename=correct-2-112985.mp3"></audio>
+        <audio id="errorSound" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_6f1b2d2f1a.mp3?filename=error-126627.mp3"></audio>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
